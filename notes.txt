@@ -1,0 +1,20 @@
+Instalaciones del Curso 
+	React developer tools extension
+	Redux devtools extension
+	git
+	node
+	visual studio code
+		activitus Bar
+		bracket pair colorizer
+		material Icon theme	
+		simple react snippets	
+		auto close tag
+
+
+Que es React:
+	Libreria para crear aplicaciones
+	Aplicaciones Moviles React Native
+	JSX = JS + XML
+
+8.Babel Traduccion de codigo moderno a cualquier navegador
+N0vaUdemy

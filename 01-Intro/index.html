@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- Cargat React -->
+        <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+        <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+   <title>React App</title>
+
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+        
+        import React from "react";
+        import {createRoot} from "react-dom/client"; // llamada al React DOM para 
+        //const divRoot = document.querySelector('#root');
+        const nombre = 'Goku';
+        const h1Tag = <h1>Hola Mundo soy</h1>;
+        const root = createRoot(document.getElementById('root'));
+        root.render(h1Tag);
+        //ReactDom.render(h1Tag, divRoot);
+    </script>
+    
+</body>
+</html>
